@@ -1,0 +1,49 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44;
+ }
+
+header.startup {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-position: center;
+  background-image: url("https://i.imgur.com/y9lg29z.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.container {
+  color: white;
+  text-align: center;
+}
+
+header.startup hr {
+  margin-top: 22%;
+  margin-bottom: 1%; 
+}
+
+.btn-danger {
+  border-radius: 24px;
+  background-color: #FF4900;
+  border-color: #FF4900;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-danger:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
